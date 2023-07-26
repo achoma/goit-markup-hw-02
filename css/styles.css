@@ -20,9 +20,8 @@ header {
   color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -31,105 +30,81 @@ header {
   color: var(--navyblue, #2e2f42);
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .navi-link a {
   text-decoration: none;
   color: var(--navyblue, #2e2f42);
-
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .navi-link a:hover,
 .navi-link a:focus {
-  width: 48px;
-  height: 52px;
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-  flex-shrink: 0;
   color: #404bbf;
   text-decoration: none;
-  font-size: 16px;
 }
 .contacts-links a {
   text-decoration: none;
   color: var(--slate, #434455);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .contacts-links a:hover,
 .contacts-links a:focus {
-  width: 153px;
-  height: 24px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
   color: #404bbf;
-  text-decoration: none;
-  font-size: 16px;
 }
 .hero {
   background-color: #2e2f42;
-  font-size: 56px;
   text-align: center;
+}
+.hero-text {
+  font-size: 56px;
   color: var(--white, #fff);
-  font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .servis-button {
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
   color: #ffffff;
-  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
   background: var(--iris, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0, 0.15);
 }
 .servis-button:hover,
 .servis-button:focus {
-  color: ##ffffff;
-  border-radius: 4px;
   background: var(--ocean, #404bbf);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+button:hover {
+  cursor: pointer;
 }
 .feature-header {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .feature {
   color: var(--slate, #434455);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .section-header {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -139,17 +114,14 @@ header {
 .photo-name h3 {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .photo-name-item p {
   color: var(--slate, #434455);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -160,39 +132,28 @@ footer {
   color: var(--cloud, #f4f4fd);
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .footer-tekst {
   color: var(--cloud, #f4f4fd);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .navi-button button {
   color: #4d5ae5;
-  line-height: 24px;
+  line-height: 1.5;
   font-size: 16;
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
+  font-weight: 500;
+  letter-spacing: 0.64px;
   background: var(--cloud, #f4f4fd);
 }
 .navi-button button:hover,
 .navi-button button:focus {
   color: #ffffff;
-  display: flex;
-  padding: 12px 24px;
-  align-items: flex-start;
-  border-radius: 4px;
   background: var(--ocean, #404bbf);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
