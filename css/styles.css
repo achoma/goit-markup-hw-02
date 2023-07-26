@@ -145,7 +145,7 @@ footer {
   letter-spacing: 0.32px;
 }
 .navi-button button {
-  color: var(--primary-brand, #4d5ae5)
+  color: var(--primary-brand, #4d5ae5);
   line-height: 1.5;
   font-size: 16;
   font-weight: 500;
